@@ -1,0 +1,42 @@
+biru jenius 009BD2 rgb(0,155,210)
+abu2 A69C99 rgb(166,156,153)
+abu2 text 676767 rgb(103,103,103)
+ungu 6800AD rgb(104,0,173)
+
+body, html {
+    overflow-x: hidden!important;
+}
+
+--blue: #20a4dc;
+    --indigo: #6f42c1;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #f26a1f;
+    --yellow: #ffb414;
+    --green: #94c45b;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #666;
+    --gray-dark: #333;
+    --primary: #20a4dc;
+    --secondary: #999;
+    --success: #94c45b;
+    --info: #17a2b8;
+    --warning: #ffb414;
+    --danger: #dc3545;
+    --light: #fafafa;
+    --dark: #191919;
+    --gray-20: #fafafa;
+    --gray-30: #f6f6f6;
+    --gray-50: #f2f2f2;
+    --gray-100: #e5e5e5;
+    --gray-200: #ccc;
+    --gray-300: #b3b3b3;
+    --gray-400: #999;
+    --gray-500: grey;
+    --gray-600: #666;
+    --gray-700: #4d4d4d;
+    --gray-800: #333;
+    --gray-900: #191919;
