@@ -5,7 +5,7 @@
    --lightgrey: #f6f6f6;
    --darkgrey: #676767;
    --white: #fff;
-   --secondary: #7a2980;
+   --secondary: #6e2387;
 }
 
 /* reset */
@@ -79,12 +79,10 @@ h4 {
    display: grid;
    grid-template-columns: 1fr 1fr;
    align-items: center;
+   justify-items: center;
 }
 .flex {
    display: flex;
-}
-.center {
-   margin: 0 auto;
 }
 
 /* content */
@@ -113,6 +111,7 @@ nav a {
 
 .hero {
    background-color: var(--secondary);
+   padding: 30px 0;
 }
 
 .hero * {
@@ -121,7 +120,8 @@ nav a {
 
 .wrapper {
    width: 1100px;
-   padding: 30px 0;
+
+   margin: 0 auto;
 }
 
 .hero p {
