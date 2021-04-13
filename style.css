@@ -32,8 +32,8 @@ body {
    background: var(--primary);
    border: 2px solid var(--primary);
    color: var(--white);
-   padding: 10px 19px;
-   border-radius: 5px;
+   padding: 6px 15px;
+   border-radius: 10px;
    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
    display: inline-block;
    font-size: 1em;
@@ -73,16 +73,20 @@ h4 {
 
 .leading {
    font-size: 1.1em;
+   margin-bottom: 20px;
 }
 
 .grid {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   align-items: center;
-   justify-items: center;
 }
 .flex {
    display: flex;
+}
+
+.wrapper {
+   width: 1100px;
+   margin: 0 auto;
 }
 
 /* content */
@@ -114,16 +118,63 @@ nav a {
    padding: 30px 0;
 }
 
+.hero .grid {
+   grid-template-columns: repeat(8, 1fr);
+   align-items: center;
+}
+
+.hero-content {
+   grid-column: 1/5;
+}
+
+.hero-img {
+   grid-column: 5/9;
+   justify-self: center;
+}
+
 .hero * {
    color: var(--white);
 }
 
-.wrapper {
-   width: 1100px;
-
-   margin: 0 auto;
+.hero .wrapper {
+   padding: 0;
 }
 
 .hero p {
    margin-bottom: 20px;
+}
+
+.hero2 {
+   padding: 50px 0;
+}
+
+.hero2 h1 {
+   font-size: 1.8em;
+}
+
+.hero2 .flex {
+   justify-content: center;
+}
+
+.hero2 a img {
+   width: 150px;
+   padding: 5px;
+}
+
+.hero2 h1 {
+   text-align: center;
+}
+
+.openAccount {
+   background-color: var(--lightgrey);
+   padding: 60px 0;
+}
+
+.openAccount .grid {
+   align-items: center;
+   justify-items: center;
+}
+
+.openAccount h1 {
+   font-size: 1.8em;
 }
