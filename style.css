@@ -6,6 +6,7 @@
    --darkgrey: #676767;
    --white: #fff;
    --secondary: #6e2387;
+   --hover: #1a83af;
 }
 
 /* reset */
@@ -39,8 +40,9 @@ body {
    font-size: 1em;
 }
 .button:hover {
-   color: #222;
-   background: var(--primary);
+   color: #fff;
+   background: var(--hover);
+   border: 2px solid var(--hover);
 }
 
 /* FONTS */
@@ -167,14 +169,20 @@ nav a {
 
 .openAccount {
    background-color: var(--lightgrey);
-   padding: 60px 0;
+   padding: 90px 0;
 }
 
-.openAccount .grid {
+.openAccount .grid,
+.high-interest-rate .grid {
    align-items: center;
    justify-items: center;
 }
 
-.openAccount h1 {
+.openAccount h1,
+.high-interest-rate h1 {
    font-size: 1.8em;
+}
+
+.high-interest-rate {
+   padding: 90px 0;
 }
