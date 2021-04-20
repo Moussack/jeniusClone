@@ -112,12 +112,14 @@ nav a {
    font-size: 0.9em;
 }
 
-.hero {
+.hero,
+.hero-bottom {
    background-color: var(--secondary);
    padding: 30px 0;
 }
 
-.hero .grid {
+.hero .grid,
+.hero-bottom .grid {
    grid-template-columns: repeat(8, 1fr);
    align-items: center;
 }
@@ -128,18 +130,21 @@ nav a {
 
 .hero-img {
    grid-column: 5/9;
-   justify-self: center;
+   justify-self: flex-end;
 }
 
-.hero * {
+.hero *,
+.hero-bottom * {
    color: var(--white);
 }
 
-.hero .wrapper {
+.hero .wrapper,
+.hero-bottom .wrapper {
    padding: 0;
 }
 
-.hero p {
+.hero p,
+.hero-bottom p {
    margin-bottom: 20px;
 }
 
@@ -209,4 +214,73 @@ nav a {
 }
 .unexpected {
    background-color: var(--lightgrey);
+}
+.hero-bottom {
+   padding: 0;
+}
+.hero-bottom p {
+   max-width: 80%;
+}
+.hero-bottom-img {
+   grid-column: 1/5;
+   justify-self: flex-start;
+}
+.hero-bottom-content {
+   grid-column: 5/9;
+   padding: 70px 0;
+}
+
+.get-jenius-app {
+   margin: 10px 0;
+}
+.get-jenius-app ul li a {
+   font-size: 0.8em;
+   padding: 0 10px;
+   margin: 0 5px;
+}
+.get-jenius-app.flex {
+   justify-content: space-between;
+   align-items: center;
+}
+.get-jenius-app h2 {
+   padding: 0 10px;
+}
+footer {
+   padding: 30px 0;
+}
+.link-icons-btn a img {
+   width: 125px;
+}
+.link-icons ul li a {
+   padding: 0 10px;
+}
+.link-icons.flex {
+   justify-content: space-between;
+}
+.link-icons-social li a {
+   padding: 0 10px;
+   margin: 0 5px;
+}
+.link-icons {
+   margin-bottom: 20px;
+}
+.logo-btpn a img {
+   width: 125px;
+   padding-left: 10px;
+}
+.ojk p,
+.privacy-terms li a {
+   font-size: 0.7em;
+}
+.bank-btpn.flex {
+   align-items: center;
+}
+.ojk {
+   margin-left: 40px;
+}
+.privacy-terms li a {
+   padding: 0 10px;
+}
+.privacy-terms {
+   margin-left: 230px;
 }
